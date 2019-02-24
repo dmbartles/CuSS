@@ -1,0 +1,50 @@
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h2>Account Lookup</h2>
+      <h5>Search for account using one of the selections below</h5>
+      <div id="search-component">
+        <label for="search-box">16-Digit Plastic Number</label>
+        <input #searchBox class="form-control" id="search-box" (input)="search(searchBox.value)" placeholder="Enter Plastic Number" />
+        <small id="plasticNumberHelp" class="form-text text-muted">Warning: PCI Data!</small>
+        <ul class="search-result">
+          <li type="square" *ngFor="let hero of heroes$ | async" >
+            <a routerLink="/detail/{{hero.id}}">{{hero.name}}</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="form-group">
+        <label for="accountID">Account Identification Number</label>
+        <input type="text" class="form-control" id="accountID" placeholder="Enter Account ID" disabled>
+      </div>
+
+      <div class="form-group">
+        <label for="accountID">Customer Social Security Number</label>
+        <input type="text" class="form-control" id="customerSSN" placeholder="Enter SSN" disabled>
+      </div>
+
+      <div class="form-group">
+        <label for="CustomerFullName">Customer Full Name</label>
+        <input type="text" class="form-control" id="CustomerFullName" placeholder="Enter Full Name" disabled>
+      </div>
+
+      <div class="form-group">
+        <label for="CustomerAddress">Customer Address</label>
+        <input type="text" class="form-control" id="CustomerAddress" placeholder="Enter Address" disabled>
+      </div>
+
+      <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="customerVerification">
+        <label class="form-check-label" for="customerVerification">Customer Passed Verification</label>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+-->
