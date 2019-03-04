@@ -240,7 +240,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\">\r\n  <div class=\"row\">\r\n    <div class=\"col\">\r\n      <h2> Hello! I am Customer Service System 2000! </h2>\r\n      <p>The CuSS 2000 is the most advanced servicing platform and runs on the fastest mainframe computer in 1983. Welcome to the most sophisticated exerience of our time.</p>\r\n    </div>\r\n  </div>\r\n  <div class=\"row\">\r\n    <div class=\"col\">\r\n      <h5>Accountable Executive:</h5>\r\n      <p>John Standard</p>\r\n      <h5>Accountable Executive Designee:</h5>\r\n      <p>Sarah Valentine</p>\r\n      <h5>Control Owner:</h5>\r\n      <p>Jay Watts</p>\r\n      <h5>Compliance Advisor:</h5>\r\n      <p>Nigel McRichie</p>\r\n    </div>\r\n    <div class=\"col\">\r\n      <h5>Domains:</h5>\r\n        <p>Branded Credit Cards</p>\r\n        <p>CoBranded Credit Cards</p>\r\n        <p>Small Business Cards</p>\r\n      <h5>Executed by:</h5>\r\n      <p>First Line</p>\r\n      <h5>ID Number:</h5>\r\n      <p>CTRL-020030515</p>\r\n    </div>\r\n  </div>\r\n</div>\r\n\r\n<!--\r\nCopyright Google LLC. All Rights Reserved.\r\nUse of this source code is governed by an MIT-style license that\r\ncan be found in the LICENSE file at http://angular.io/license\r\n-->\r\n"
+module.exports = "<div class=\"container\">\r\n  <div class=\"row\">\r\n    <div class=\"col\">\r\n      <h2> Hello! I am Customer Service System 2000! </h2>\r\n      <p>The CuSS 2000 is the most advanced servicing platform and runs on the fastest mainframe computer in 1983. Welcome to the most sophisticated exerience of our time.</p>\r\n    </div>\r\n  </div>\r\n  <div class=\"row\">\r\n    <div class=\"col\">\r\n      <h5>Current Status:</h5>\r\n      <p>Fully Operational</p>\r\n      <h5>Memory Available:</h5>\r\n      <p>6871kb</p>\r\n      <h5>Customers Serving:</h5>\r\n      <p>285,218</p>\r\n      <h5>Created By:</h5>\r\n      <p>Kevin Flynn</p>\r\n    </div>\r\n    <div class=\"col\">\r\n      <h5>Domains:</h5>\r\n        <p>Branded Credit Cards</p>\r\n        <p>CoBranded Credit Cards</p>\r\n        <p>Small Business Cards</p>\r\n      <h5>Manufactured By:</h5>\r\n      <p>University of Illinois' Coordinated Science Laboratory</p>\r\n      <h5>ID Number:</h5>\r\n      <p>HAL 9000 Model 102</p>\r\n    </div>\r\n  </div>\r\n</div>\r\n\r\n<!--\r\nCopyright Google LLC. All Rights Reserved.\r\nUse of this source code is governed by an MIT-style license that\r\ncan be found in the LICENSE file at http://angular.io/license\r\n-->\r\n"
 
 /***/ }),
 
@@ -318,7 +318,7 @@ module.exports = "\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\">\r\n  <div class=\"row\">\r\n    <div class=\"col\">\r\n      <h2> Customer Information </h2>\r\n    </div>\r\n  </div>\r\n  <div class=\"row\">\r\n    <div class=\"col\">\r\n      <h5>First Name:</h5>\r\n      <p id=\"firstName\">{{hero.firstName}}</p>\r\n      <h5>Address:</h5>\r\n      <p id=\"address\">{{hero.address}}</p>\r\n      <h5>Phone Number:</h5>\r\n      <p id=\"phoneNumber\">{{hero.phoneNumber}}</p>\r\n    </div>\r\n    <div class=\"col\">\r\n      <h5>Last Name:</h5>\r\n      <p id=\"lastName\">{{hero.lastName}}</p>\r\n      <h5>City / State:</h5>\r\n      <p id=\"cityState\">{{hero.cityState}}</p>\r\n      <h5>Pager Number:</h5>\r\n      <p id=\"pagerNumber\">{{hero.pagerNumber}}</p>\r\n    </div>\r\n  </div>\r\n</div>\r\n\r\n<div class=\"container\">\r\n  <div class=\"row\">\r\n    <div class=\"col\">\r\n      <h2> Account Information </h2>\r\n    </div>\r\n  </div>\r\n  <div class=\"row\">\r\n    <div class=\"col\">\r\n      <h5>Plastic Number:</h5>\r\n      <p id=\"plasticNumber\">{{hero.name}}</p>\r\n      <h5>Credit Line:</h5>\r\n      <p id=\"creditLine\">{{hero.creditLine}}</p>\r\n      <h5>Account Status:</h5>\r\n      <p id=\"accountStatus\">{{hero.accountStatus}}</p>\r\n    </div>\r\n    <div class=\"col\">\r\n      <h5>Account ID:</h5>\r\n      <p id=\"accountID\">{{hero.id}}</p>\r\n      <h5>Current Balance:</h5>\r\n      <p id=\"currentBalance\">{{hero.currentBalance}}</p>\r\n      <h5>Account Status Date:</h5>\r\n      <p id=\"accountStatusDate\">{{hero.accountStatusDate}}</p>\r\n    </div>\r\n  </div>\r\n</div>\r\n\r\n<div class=\"container\">\r\n  <div class=\"row\">\r\n    <div class=\"col\">\r\n      <h2> Available Offers </h2>\r\n    </div>\r\n  </div>\r\n  <div class=\"row\">\r\n    <div class=\"col\">\r\n      <h5>Credit Line Increase:</h5>\r\n      <input type=\"text\" class=\"form-control\" id=\"newCreditLine\" placeholder=\"New Credit Line\">\r\n      <br>\r\n      <h5>Fee Waiver:</h5>\r\n      <input type=\"text\" class=\"form-control\" id=\"feeWaiver\" placeholder=\"Fee Waiver Amount\" disabled>\r\n\r\n    </div>\r\n    <div class=\"col\">\r\n      <h5>Change APR:</h5>\r\n      <input type=\"text\" class=\"form-control\" id=\"feeWaiver\" placeholder=\"New APR\" disabled>\r\n      <br>\r\n      <h5>Balance Transfer:</h5>\r\n      <input type=\"text\" class=\"form-control\" id=\"balanceTransfer\" placeholder=\"Balance Transfer Amount\" disabled>\r\n    </div>\r\n  </div>\r\n</div>\r\n\r\n\r\n\r\n<div class=\"container\">\r\n  <div class=\"row\">\r\n    <div class=\"col\">\r\n      <h2>Account Notes</h2>\r\n    </div>\r\n  </div>\r\n  <div class=\"row\">\r\n    <div class=\"col\">\r\n      <h5>Enter Account Note:</h5>\r\n      <textarea rows=\"5\" class=\"form-control\" id=\"accountNotes\" placeholder=\"Enter Account Notes\"></textarea>\r\n    </div>\r\n  </div>\r\n</div>\r\n\r\n<div class=\"container\">\r\n  <div class=\"row\">\r\n    <div style=\"font-family: 'Orbitron', sans-serif; color:#48CF85; font-size: 200%; text-align: center;\" class=\"col\">\r\n      <a id=\"submitUpdate\" href=\"heroSearch\">Submit Updates</a>\r\n    </div>\r\n  </div>\r\n</div>\r\n\r\n<!--\r\nCopyright Google LLC. All Rights Reserved.\r\nUse of this source code is governed by an MIT-style license that\r\ncan be found in the LICENSE file at http://angular.io/license\r\n-->\r\n"
+module.exports = "<div class=\"container\">\r\n  <div class=\"row\">\r\n    <div class=\"col\">\r\n      <h2> Customer Information </h2>\r\n    </div>\r\n  </div>\r\n  <div class=\"row\">\r\n    <div class=\"col\">\r\n      <h5>First Name:</h5>\r\n      <p id=\"firstName\">{{hero.firstName}}</p>\r\n      <h5>Address:</h5>\r\n      <p id=\"address\">{{hero.address}}</p>\r\n      <h5>Phone Number:</h5>\r\n      <p id=\"phoneNumber\">{{hero.phoneNumber}}</p>\r\n    </div>\r\n    <div class=\"col\">\r\n      <h5>Last Name:</h5>\r\n      <p id=\"lastName\">{{hero.lastName}}</p>\r\n      <h5>City / State:</h5>\r\n      <p id=\"cityState\">{{hero.cityState}}</p>\r\n      <h5>Pager Number:</h5>\r\n      <p id=\"pagerNumber\">{{hero.pagerNumber}}</p>\r\n    </div>\r\n  </div>\r\n</div>\r\n\r\n<div class=\"container\">\r\n  <div class=\"row\">\r\n    <div class=\"col\">\r\n      <h2> Account Information </h2>\r\n    </div>\r\n  </div>\r\n  <div class=\"row\">\r\n    <div class=\"col\">\r\n      <h5>Plastic Number:</h5>\r\n      <p id=\"plasticNumber\">{{hero.name}}</p>\r\n      <h5>Credit Line:</h5>\r\n      <p id=\"creditLine\">{{hero.creditLine}}</p>\r\n      <h5>Account Status:</h5>\r\n      <p id=\"accountStatus\">{{hero.accountStatus}}</p>\r\n    </div>\r\n    <div class=\"col\">\r\n      <h5>Account ID:</h5>\r\n      <p id=\"accountID\">{{hero.id}}</p>\r\n      <h5>Current Balance:</h5>\r\n      <p id=\"currentBalance\">{{hero.currentBalance}}</p>\r\n      <h5>Account Status Date:</h5>\r\n      <p id=\"accountStatusDate\">{{hero.accountStatusDate}}</p>\r\n    </div>\r\n  </div>\r\n</div>\r\n\r\n<div class=\"container\">\r\n  <div class=\"row\">\r\n    <div class=\"col\">\r\n      <h2> Available Offers </h2>\r\n    </div>\r\n  </div>\r\n  <div class=\"row\">\r\n    <div class=\"col\">\r\n      <h5>Change Credit Line:</h5>\r\n      <input type=\"text\" class=\"form-control\" id=\"newCreditLine\" placeholder=\"New Credit Line\">\r\n      <br>\r\n      <h5>Fee Waiver:</h5>\r\n      <input type=\"text\" class=\"form-control\" id=\"feeWaiver\" placeholder=\"Fee Waiver Amount\" disabled>\r\n\r\n    </div>\r\n    <div class=\"col\">\r\n      <h5>Change APR:</h5>\r\n      <input type=\"text\" class=\"form-control\" id=\"feeWaiver\" placeholder=\"New APR\" disabled>\r\n      <br>\r\n      <h5>Balance Transfer:</h5>\r\n      <input type=\"text\" class=\"form-control\" id=\"balanceTransfer\" placeholder=\"Balance Transfer Amount\" disabled>\r\n    </div>\r\n  </div>\r\n</div>\r\n\r\n\r\n\r\n<div class=\"container\">\r\n  <div class=\"row\">\r\n    <div class=\"col\">\r\n      <h2>Account Notes</h2>\r\n    </div>\r\n  </div>\r\n  <div class=\"row\">\r\n    <div class=\"col\">\r\n      <h5>Enter Account Note:</h5>\r\n      <textarea rows=\"5\" class=\"form-control\" id=\"accountNotes\" placeholder=\"Enter Account Notes\"></textarea>\r\n    </div>\r\n  </div>\r\n</div>\r\n\r\n<div class=\"container\">\r\n  <div class=\"row\">\r\n    <div style=\"font-family: 'Orbitron', sans-serif; color:#48CF85; font-size: 200%; text-align: center;\" class=\"col\">\r\n      <a id=\"submitUpdate\" href=\"heroSearch\">Submit Updates</a>\r\n    </div>\r\n  </div>\r\n</div>\r\n\r\n<!--\r\nCopyright Google LLC. All Rights Reserved.\r\nUse of this source code is governed by an MIT-style license that\r\ncan be found in the LICENSE file at http://angular.io/license\r\n-->\r\n"
 
 /***/ }),
 
@@ -937,6 +937,84 @@ var InMemoryDataService = /** @class */ (function () {
                 accountStatusDate: '02-07-1986',
                 currentBalance: "$1202.13"
             },
+            { id: 10010015,
+                name: '800019832000015',
+                firstName: 'Egon',
+                lastName: 'Spengler',
+                phoneNumber: '555-1986',
+                pagerNumber: 'no-ghost',
+                address: 'Firehouse, Hook & Latter Company 8',
+                cityState: 'New York, NY',
+                creditLine: '$10000.00',
+                accountStatus: 'Current',
+                accountStatusDate: '02-29-1986',
+                currentBalance: "$1.00"
+            },
+            { id: 10010016,
+                name: '800019832000016',
+                firstName: 'Gizmo',
+                lastName: 'Unknown',
+                phoneNumber: '555-1213',
+                pagerNumber: null,
+                address: 'Chinatown',
+                cityState: 'New York, NY',
+                creditLine: '$10.00',
+                accountStatus: 'Past Due',
+                accountStatusDate: '02-29-1986',
+                currentBalance: "$1.00"
+            },
+            { id: 10010017,
+                name: '800019832000017',
+                firstName: 'Jack',
+                lastName: 'Torrance',
+                phoneNumber: '555-1213',
+                pagerNumber: null,
+                address: 'Overlook Hotel',
+                cityState: 'Redrum, PA',
+                creditLine: '$100.00',
+                accountStatus: 'Charged Off',
+                accountStatusDate: '02-29-1986',
+                currentBalance: "$125.99"
+            },
+            { id: 10010018,
+                name: '800019832000018',
+                firstName: 'Gary',
+                lastName: 'Wallace',
+                phoneNumber: '555-1931',
+                pagerNumber: null,
+                address: '1200 Linden Avenue',
+                cityState: 'Highland Park, Il',
+                creditLine: '$2000.00',
+                accountStatus: 'Current',
+                accountStatusDate: '02-29-1986',
+                currentBalance: "$1985.00"
+            },
+            { id: 10010019,
+                name: '800019832000019',
+                firstName: 'Roger',
+                lastName: 'Rabbit',
+                phoneNumber: '555-1861',
+                pagerNumber: null,
+                address: '16 Main Street',
+                cityState: 'Hollywood, CA',
+                creditLine: '$2000.00',
+                accountStatus: 'Current',
+                accountStatusDate: '02-29-1983',
+                currentBalance: "$128.00"
+            },
+            { id: 10010020,
+                name: '800019832000020',
+                firstName: 'Ren',
+                lastName: 'Loose',
+                phoneNumber: '555-1861',
+                pagerNumber: null,
+                address: '75 North 100 East',
+                cityState: 'American Fork, UT',
+                creditLine: '$2000.00',
+                accountStatus: 'Current',
+                accountStatusDate: '02-29-1983',
+                currentBalance: "$128.00"
+            }
         ];
         return { heroes: heroes };
     };

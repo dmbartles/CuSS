@@ -7,20 +7,24 @@ body {
 
 p {
   color: white;
+  font-size: 130%;
 }
 
 a {
-  color: white;
+  color: #48CF85;
 }
 
 h2 {
   font-family: 'Orbitron', sans-serif;
   text-align: center;
   padding-bottom: 5px;
+  font-size: 210%;
 }
 
 h3, h5 {
   font-family: 'Orbitron', sans-serif;
+  font-size: 150%;
+
 }
 
 .navbar {
@@ -39,8 +43,8 @@ h3, h5 {
 }
 
 .footer {
-  font-size: 80%;
+  font-size: 50%;
   text-align: center;
-  line-height: 1;
+  line-height: .8;
   padding-top: 20px;
 }
